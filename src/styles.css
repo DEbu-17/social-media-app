@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #F05A22;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      position: sticky;
+      top: 0;
+}
+
+.nav-links{
+    
+    
+    background-color: white;
+  
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #F9DDCF;
+}
+
+.search{
+    width: 1300px;
+}
+
+.header{
+    margin-left: 20px;
+    padding:30px;
+    margin-left: 70px;
+}
+.card{
+    height: 350px;
+    width: 400px;
+    padding-left:15px;
+    padding-top:20px ;
+    border-radius: 20px;
+    box-shadow: 0 0 10px lightgrey;
+    background-color: white;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.images img{
+  height: 200px;
+  width: 370px;
+  border-radius: 10px;
+}
+
+.body{
+    width: 75%;
+    color: #cccccc;
+}
+
+.para{
+    display: flex;
+}
+
+.search{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.post-card{
+    display: flex;
+    margin-left: 98px;
+    gap: 30px;
+}
+
+.post-num{
+    margin-left: 100px;
+}
+
+
+.more-post-heading{
+    margin-top: 30px;
+    margin-left: 98px;
+    margin-bottom: -20px;
+}
+
+.btn-section{
+    display: flex;
+    gap: 20px;
+    height: 20px;
+}
+
+button{
+    border: none;
+    padding: 15px 15px;
+    border-radius: 5px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.content{
+    position: absolute;
+    top: 170px;
+    left: 330px;
+    width: 20%;
+    color: #cccccc;
+}
+.travel{
+    position: absolute;
+    left: 20px;
+    color: white;
+}
+
+.left-arrow{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px lightgrey;
+}
+
+.post-body{
+    margin-top:20px ;
+}
